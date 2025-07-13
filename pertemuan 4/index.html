@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gabungan CSS: Embedded, Internal, dan Inline</title>
+  <style>
+    /* Embedded CSS (dari contoh pertama) */
+    body {
+      background: #999999;
+    }
+    h1 {
+      font-size: 18pt;
+      color: #FF0000;
+    }
+    p.embedded {
+      color: red;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+
+    /* Internal CSS (dari contoh kedua) */
+    p.internal {
+      font-family: serif;
+      line-height: 1.75em;
+      font-size: 18px;
+    }
+    i {
+      font-family: sans;
+      color: orange;
+    }
+    h2 {
+      font-family: sans;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Bagian 1: Embedded Style Sheet -->
+  <h1>HTML5 and CSS3 Web Plus Programmer's Mandatory Book</h1>
+  <p class="embedded">Jasakom Publisher</p>
+  <p class="embedded">Jakarta</p>
+
+  <hr>
+
+  <!-- Bagian 2: Internal CSS -->
+  <h2>This is the title of the article</h2>
+  <p class="internal">
+    This is the paragraph that contains the article content. This paragraph is for experimental purposes only. 
+    Attempts to demonstrate the <i>internal css</i>. As the name suggests, 
+    <i>inline CSS</i> is CSS code that is written directly in the HTML file.
+  </p>
+
+  <hr>
+
+  <!-- Bagian 3: Inline Style Sheet -->
+  <h1>HTML5 and CSS3 Web Plus Programmer's Mandatory Book</h1>
+  <p style="border: 1px solid">Jasakom Publisher</p>
+  <p>Jakarta</p>
+
+  <hr>
+
+  <!-- Bagian 4: Inline CSS Example -->
+  <h2 style="color: red; font-family: sans">This is the article title</h2>
+  <p style="color: maroon">
+    This is the paragraph that contains the contents of the article. This paragraph is for experimental purposes only. 
+    Attempts to demonstrate the <i>internal css</i>. As the name suggests, 
+    <i>inline CSS</i> is CSS code that is written directly in the HTML file.
+  </p>
+
+</body>
+</html>
